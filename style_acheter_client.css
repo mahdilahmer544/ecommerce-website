@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+nav h1{
+  font-size: 20px;
+}
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+nav .onglets p{
+  font-size: 17px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+nav .onglets p a {
+  color:black;
+  text-decoration: none;
+}
+nav .onglets input{
+  margin: 8px 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  background-color: #f2f2f2;
+  outline:none;
+}
+/* menu connexion */
+
+/* Fin de la barre de navigation */
+
+/* Header */
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+header h1{
+  font-size: 50px;
+  max-width: 500px;
+  text-align:center;
+}
+
+/* Fin du header */
+
+/* Section principale */
+
+.main{
+ 
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+/* Toutes les cartes */
+.inscri input {
+	width: 350px;
+    margin-bottom: 24px;
+    padding: 10px 15px;
+    border: 1px solid #cfcfcf;
+    outline: 0;
+    font-family: Raleway,sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #797979;
+	border-radius: 4px;
+}
+
+.inscri {
+    display:flex;
+    flex-wrap:wrap;
+    float:left;
+    width: 350px;
+}
+.ach{
+    
+    display:flex;
+    flex-wrap:wrap;
+    float:left;
+}
+.achat {
+    display:flex;
+  flex-wrap:wrap;
+}
+ .card{
+  display:flex;
+  flex-wrap:wrap;
+  cursor:pointer;
+  width: 350px;
+}
+.cards .card img{
+  width: 350px;
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.cards .card .card-header .price{
+  margin-left:100px;
+}
+.cards .card .card-body p{
+  margin-top: -10px;
+}
+.cards .card .card-body .acheter  {
+  margin-left: 30px;
+ padding :10px 20px;
+  color:white;
+  font-size: 15px;
+  border:2px solid #0099ff;
+  border-radius:12px;
+  background-color: #0099ff;
+  cursor: pointer;
+}
+.cards .card .card-body .acheter:hover  {
+    padding :10px 20px;
+    color:white;
+    font-size: 15px;
+    border:2px solid #3a3b3b;
+    border-radius:12px;
+    background-color: #3a3b3b;
+    cursor: pointer;
+  }
+/* Fin de toutes les cartes */
+
+
+/* Fin de la section principale */
+
+/* Pied de page */
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+footer .social-media{
+  display: flex;
+}
+footer .social-media p{
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 5px;
+  text-align:center;
+  width: 20px;
+  cursor:pointer;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+  nav .onglets .link, nav h1{
+    display:none;
+  }
+	.cards .card{
+		margin-left: 30px;
+	}
+  .cards .card img{
+    width: 300px;
+  }
+}

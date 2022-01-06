@@ -1,0 +1,20 @@
+espace entre les elements 
+*dans CSS 
+justify-content: space-between;
+***********************************************************************************
+alignement
+*dans CSS 
+display: flex;
+flex-wrap: wrap;
+********************************************************************************
+pour le recherche 
+border:none; /*enlever le cadre */
+outline:none; /*enlever le cadre qui s'appareil en rouge */
+***********************************************************************************
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; /* rendre les elements l'un sous l'autre */
+***********************************************************************************
+pour inserer une video de youtube 
+<iframe src="lien" ></iframe>
